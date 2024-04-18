@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0](https://github.com/ganexcloud/terraform-aws-budget/compare/v1.1.0...v1.2.0) (2024-04-18)
+
+
+### Features
+
+* Add support aws provider version 5 in terraform version 1.0.0 ([23648af](https://github.com/ganexcloud/terraform-aws-budget/commit/23648afe954256775b19bbd0c5a29b7bafa5c538))
+
 ## [1.1.0](https://github.com/ganexcloud/terraform-aws-budget/compare/v1.0.0...v1.1.0) (2024-04-15)
 
 
