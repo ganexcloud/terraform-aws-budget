@@ -14,7 +14,7 @@ This module requires Terraform 1.0.0 or later. Older Terraform versions are not 
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.100.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | ~> 5 |
 
 ## Modules
 
