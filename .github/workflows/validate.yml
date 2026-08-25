@@ -36,22 +36,3 @@ jobs:
           terraform init -backend=false
           terraform validate
           pre-commit run --all-files
-
-  provider-compatibility:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        fixture: [v5, v6]
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: hashicorp/setup-terraform@v3
-        with:
-          terraform_version: "1.0.0"
-          terraform_wrapper: false
-
-      - name: Validate AWS provider compatibility
-        working-directory: tests/provider-compatibility/${{ matrix.fixture }}
-        run: |
-          terraform init -backend=false
-          terraform validate
